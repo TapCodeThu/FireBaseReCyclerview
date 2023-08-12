@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:text="Cập Nhật Thông Tin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:hint="Nhập tên mới"
+        android:id="@+id/id_name_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:hint="Nhập email mới"
+        android:id="@+id/id_email_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_marginHorizontal="5dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_margin="10dp"
+            android:text="Hủy"
+            android:id="@+id/id_huy_dialog"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_margin="10dp"
+            android:text="Cập Nhật"
+            android:id="@+id/id_update_dialog"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+</LinearLayout>

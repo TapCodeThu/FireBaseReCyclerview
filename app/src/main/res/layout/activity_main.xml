@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <EditText
+       android:id="@+id/id_Id"
+       android:hint="Enter id"
+       android:layout_marginTop="10dp"
+       android:layout_marginHorizontal="20dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/id_Name"
+        android:hint="Enter Name"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/id_Email"
+        android:hint="Enter email"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/id_IdJob"
+        android:hint="Enter Id Job"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/id_NameJob"
+        android:hint="Enter Name Job"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/id_Push"
+        android:text="Push Data"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"/>
+ <androidx.recyclerview.widget.RecyclerView
+     android:layout_marginHorizontal="5dp"
+     android:id="@+id/recycler_view"
+     android:layout_marginTop="10dp"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"/>
+
+</LinearLayout>
